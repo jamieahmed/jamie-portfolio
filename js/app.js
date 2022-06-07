@@ -1,14 +1,49 @@
-// // import external data from different file
-import { projects } from "../data/allData";
-
-// //Store cached element references
-const navBar = document.getElementById('myNav_bar');
-const home = document.getElementById('myHome');
-const about = document.getElementById('myAbout');
-const resume = document.getElementById('myResume');
-const projects = document.getElementById('myProjects');
-const contact = document.getElementById('myContact');
-const footer = document.getElementById('myFooter');
 
 
-// Home page
+
+// //////////Store cached element references///////////////
+// // for Navbar section 
+const navbar = document.querySelector("#navbar-page")
+// // for Home section 
+const home = document.querySelector("#home-page")
+// // for About me  section 
+const about = document.querySelector("#about-page")
+//////////// for Resume section //////////////////////////
+const resume = document.querySelector("#resume-page")
+const education = document.querySelector("#resume-left")
+const skills = document.querySelector("#resume-center")
+const experience = document.querySelector("#resume-right")
+// for projects section
+const projects = document.querySelector("#projects-page")
+
+// // for Contact  section 
+const contact = document.querySelector("#contact-page")
+// for Footer section
+const footer = document.querySelector("#footer-page")
+
+
+
+
+//////////// for Resume section //////////////////////////
+// for education
+let eductionTitle = document.createElement("h2");
+eductionTitle.innerText = "Eduction";
+education.appendChild(eductionTitle)
+//  for skills
+let skillTitle = document.createElement("h2");
+skillTitle.innerText = "Skills";
+skills.appendChild(skillTitle)
+//  for Experience
+let experienceTitle = document.createElement("h2");
+experienceTitle.innerText = "Experience";
+experience.appendChild(experienceTitle)
+
+
+////////////////// for footer sction  //////////////////////////
+let newFooter = document.createElement("p");
+newFooter.innerText = "© 2022 JamieAhmed. All rights reserved.";
+footer.appendChild(newFooter)
+
+
+
+

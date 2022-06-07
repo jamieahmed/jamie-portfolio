@@ -1,4 +1,4 @@
-const projects = [{
+const allprojectsData = [{
     id: "f1",
     category: "Front-end",
     title: "Tic-Tac-Toe",
@@ -12,5 +12,5 @@ const projects = [{
 }]
 
 export {
-    projects
+ allprojectsData
 }

@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav id="navbar-page">
         <div class="brand">
             <a href="#home">
                 <strong class="l-1">J </strong>
@@ -42,7 +42,7 @@
         <button><i class="bi bi-moon-fill"></i></button>
     </nav>
 
-    <div class="home-container">
+    <div class="home-container" id="home-page">
         <!-- left side of home page -->
         <div class="home-child-content">
             <h2 class="my-name">Hi,I'm Jamie Ahmed</h2>
@@ -58,7 +58,8 @@
             <img class="profile-pic" src="./assets/jamie1.jpg" alt="my-profile-pic">
         </div>
     </div>
-    <div class="about-container">
+
+    <div id="about-page" class="about-container">
         <!-- left side of about  page-->
         <div class="about-child-pic">
             <img class="about-image" src="./assets/jamie2.jpg" alt="about-profile-pic">
@@ -93,14 +94,26 @@
                 </blockquote>
             </div>
         </div>
-
-
     </div>
-    <section id="myResume"></section>
-    <section id="myProjects"></section>
-    <section id="myContact"></section>
-    <section id="myFooter"></section>
-
+    <!-- resume page -->
+    <div id="resume-page" class="resume-container">
+        <div id="resume-left" class="resume-left-style"></div>
+        <div id="resume-center" class="resume-center-style"></div>
+        <div id="resume-right" class="resume-right-style"></div>
+    </div>
+    <div id="resume-card-container"></div>
+    <!-- projects -->
+    <div id="projects-page" class="projects-container"> </div>
+    <!-- contact page -->
+    <div id="contact-page" class="contact-container">
+        <div id="left-contact" class="contact-left">Contact Me</div>
+        <div id="right-contact-info" class="contact-right">
+            <div>Contact info</div>
+            <div>Social Media</div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer-page" class="footer-container"> </div>
 
 
 </body>
