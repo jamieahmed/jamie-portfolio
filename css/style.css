@@ -129,7 +129,7 @@ nav>button:last-child {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-image: url(../assets/bgp.jpg);
+  background-image: url(../assets/images/bgp.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
@@ -314,9 +314,8 @@ nav>button:last-child {
   height: auto;
   width: 100%;
   background-color: black;
-  margin-top: 5px;
-  border-radius: 40px;
-  height: 370px;
+  margin: 5px;
+  height: 400px;
 }
 
 .resume-left-style {
@@ -358,13 +357,12 @@ nav>button:last-child {
 /* section projects */
 .projects-container {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   height: auto;
   width: 100%;
-  background-color: black;
-  margin-top: 5px;
-  border-radius: 40px;
-  height: 370px;
+  padding: 60px;
+  background-color: #000000;
 }
 
 /* section contact */
@@ -375,8 +373,6 @@ nav>button:last-child {
   width: 100%;
   background: linear-gradient(45deg, #77ce18 0%, #1c6ea4 44%, #c517b8 100%);
   margin-top: 5px;
-  border-radius: 40px;
-  height: 370px;
 }
 
 .contact-left {

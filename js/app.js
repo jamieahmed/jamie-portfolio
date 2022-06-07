@@ -1,25 +1,76 @@
+// imported external data
+import { allprojectsData } from "../data/allData.js"
 
+////////////Store cached element references///////////////
 
-
-// //////////Store cached element references///////////////
-// // for Navbar section 
+//// Navbar section 
 const navbar = document.querySelector("#navbar-page")
-// // for Home section 
+
+//// Home section ////////////////////////////////
 const home = document.querySelector("#home-page")
-// // for About me  section 
+
+//// About me  section ///////////////////////
 const about = document.querySelector("#about-page")
-//////////// for Resume section //////////////////////////
+
+//////////// Resume section //////////////////////////
 const resume = document.querySelector("#resume-page")
 const education = document.querySelector("#resume-left")
 const skills = document.querySelector("#resume-center")
 const experience = document.querySelector("#resume-right")
-// for projects section
-const projects = document.querySelector("#projects-page")
 
-// // for Contact  section 
+// for projects section/////////////////
+const projectsContainer = document.getElementById('projects-page')
+
+////////////// Contact  section ////////////////
 const contact = document.querySelector("#contact-page")
-// for Footer section
+
+///////////////// for Footer section///////////////////////////
 const footer = document.querySelector("#footer-page")
+
+////////////Store cached element references end here///////////////
+
+
+
+// project card /////////////////////
+let projectCard = allprojectsData.map(project =>
+    `
+      <div class="card" >
+        <img src="${project.image}" class="card-img-top "  alt="...">
+        <div class="card-body">
+          <h5 class="card-title">${project.title}</h5>
+          <p class="card-text">${project.description}</p>
+          <p class="card-text">${project.languages}</p>
+          <p class="card-text">${project.status}</p>
+          <div>
+            <a href="${project.github}" class="btn btn-primary">GitHub</a>
+            <a href="${project.deployment}" class="btn btn-secondary">Deployment</a>
+          </div>
+        </div>
+      </div>
+    `
+).join('')
+projectsContainer.innerHTML = projectCard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -43,7 +94,6 @@ experience.appendChild(experienceTitle)
 let newFooter = document.createElement("p");
 newFooter.innerText = "© 2022 JamieAhmed. All rights reserved.";
 footer.appendChild(newFooter)
-
 
 
 
