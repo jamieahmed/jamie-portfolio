@@ -1,6 +1,5 @@
 // imported external data
 import { allprojectsData } from "../data/allData.js"
-
 ////////////Store cached element references///////////////
 
 //// Navbar section 
@@ -78,9 +77,9 @@ projectsContainer.innerHTML = projectCard
 
 //////////// for Resume section //////////////////////////
 // for resume-title
-let mySkillTitle = document.createElement("h2");
-mySkillTitle.innerText = "Resume";
-resumeTitle.appendChild(mySkillTitle)
+// let mySkillTitle = document.createElement("h2");
+// mySkillTitle.innerText = "Resume";
+// resumeTitle.appendChild(mySkillTitle)
 // for education
 let eductionTitle = document.createElement("h2");
 eductionTitle.innerText = "Eduction";

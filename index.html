@@ -100,7 +100,7 @@
     </div>
     <!-- resume page -->
     <div>
-        <h3 id="resume-title" class="resume-title"></h3>
+        <!-- <h3 id="resume-title" class="resume-title"></h3> -->
         <div id="resume-page" class="resume-container">
             <div class="resume-title-child">
                 <h2 id="resume-education-title"></h2>
@@ -120,16 +120,60 @@
     <div id="projects-page" class="projects-container"></div>
     <!-- contact page -->
     <div id="contact-page" class="contact-container">
-        <div id="left-contact" class="contact-left">Contact Me</div>
+        <div id="left-contact-form" class="contact-left">
+            <p class="Contact-form-title">Contact Me</p>
+            <form action="">
+                <label for="name">Name</label>
+                <input id="form-input" type="text" name="user_name" placeholder="Your Name" required />
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="user name" placeholder="Your Email" required>
+                <br>
+                <label for="tel">Number</label>
+                <input type="tel" name="user_phone_number" placeholder="your Phone Number" required>
+                <br>
+                <label for="con">Country</label>
+                <input type="text" name="user_country" placeholder="Your Country" required>
+                <br>
+                <label for="text">Message</label>
+                <textarea name="user_message" id=""></textarea>
+                <br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+
         <div id="right-contact-info" class="contact-right">
-            <div>Contact info</div>
-            <div>Social Media</div>
+            <!-- contact info staff -->
+            <p class="Contact-info-title">Contact Info</p>
+            <p class=" contact-info">
+                <i class="bi bi-envelope-fill"></i>
+                jamieahmed273@gmail.com
+            </p>
+            <p class="contact-info">
+                <i class="bi bi-telephone-outbound-fill"></i>
+                +1(732)221-0182
+            </p>
+            <a class="contact-info" href="https://goo.gl/maps/1MeUDyYnrnjPxn578">
+                <i class="bi bi-geo-alt-fill"></i>Get Location
+            </a>
+            <!-- social media staff -->
+            <p class="social-media-title">Social Media</p>
+            <a href="https://www.facebook.com/JAMIEAHMEDIBRAHIM">
+                <i class="bi bi-facebook" id="facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/jamie-ahmed-b1841421a/">
+                <i class="bi bi-linkedin" id="linkedin"></i>
+            </a>
+            <a href="https://github.com/jamieahmed">
+                <i class="bi bi-github" id="github"></i>
+            </a>
+            <a href="https://github.com/jamieahmed">
+                <i class="bi bi-messenger" id="messenger"></i>
+            </a>
         </div>
     </div>
     <!-- footer -->
-    <div id="footer-page" class="footer-container"> </div>
-
-
+    <div id="footer-page" class="footer-container"></div>
 </body>
 
 </html>
