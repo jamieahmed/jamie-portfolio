@@ -12,19 +12,20 @@ const home = document.querySelector("#home-page")
 //// About me  section ///////////////////////
 const about = document.querySelector("#about-page")
 
-//////////// Resume section //////////////////////////
+//////////// Resume section //////////////////////////resume-title
 const resume = document.querySelector("#resume-page")
-const education = document.querySelector("#resume-left")
-const skills = document.querySelector("#resume-center")
-const experience = document.querySelector("#resume-right")
+const resumeTitle = document.querySelector("#resume-title")
+const education = document.querySelector("#resume-education-title")
+const skills = document.querySelector("#resume-skill-title")
+const experience = document.querySelector("#resume-experience-title")
 
-// for projects section/////////////////
+// projects section/////////////////
 const projectsContainer = document.getElementById('projects-page')
 
 ////////////// Contact  section ////////////////
 const contact = document.querySelector("#contact-page")
 
-///////////////// for Footer section///////////////////////////
+///////////////// Footer section///////////////////////////
 const footer = document.querySelector("#footer-page")
 
 ////////////Store cached element references end here///////////////
@@ -38,12 +39,12 @@ let projectCard = allprojectsData.map(project =>
         <img src="${project.image}" class="card-img-top "  alt="...">
         <div class="card-body">
           <h5 class="card-title">${project.title}</h5>
-          <p class="card-text">${project.description}</p>
-          <p class="card-text">${project.languages}</p>
-          <p class="card-text">${project.status}</p>
+          <p class="card-description">${project.description}</p>
+          <p class="card-language">${project.languages}</p>
+          <p class="card-status">${project.status}</p>
           <div>
-            <a href="${project.github}" class="btn btn-primary">GitHub</a>
-            <a href="${project.deployment}" class="btn btn-secondary">Deployment</a>
+            <a href="${project.github}" class="card-github">GitHub</a>
+            <a href="${project.deployment}" class="card-deployment">Demo</a>
           </div>
         </div>
       </div>
@@ -76,18 +77,25 @@ projectsContainer.innerHTML = projectCard
 
 
 //////////// for Resume section //////////////////////////
+// for resume-title
+let mySkillTitle = document.createElement("h2");
+mySkillTitle.innerText = "Resume";
+resumeTitle.appendChild(mySkillTitle)
 // for education
 let eductionTitle = document.createElement("h2");
 eductionTitle.innerText = "Eduction";
 education.appendChild(eductionTitle)
+
 //  for skills
 let skillTitle = document.createElement("h2");
 skillTitle.innerText = "Skills";
 skills.appendChild(skillTitle)
-//  for Experience
+
+// //  for Experience
 let experienceTitle = document.createElement("h2");
 experienceTitle.innerText = "Experience";
 experience.appendChild(experienceTitle)
+
 
 
 ////////////////// for footer sction  //////////////////////////

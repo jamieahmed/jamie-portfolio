@@ -16,7 +16,7 @@ let allprojectsData = [
         github: '#',
         description:
             "App description will be here,",
-        status: 'comming soon',
+        status: 'comming soon  .......',
         languages: "HTML,CSS,JavaScript, DOM.",
     },
     {
@@ -26,9 +26,10 @@ let allprojectsData = [
         github: '#',
         description:
             "App description will be here,",
-        status: 'coming soon',
+        status: 'coming soon  ........',
         languages: "HTML,CSS,JavaScript, DOM.",
-    }
+    },
+
 ]
 
 export {
