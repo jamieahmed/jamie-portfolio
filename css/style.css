@@ -578,15 +578,15 @@ input[type="submit"]:hover {
 }
 
 /*smallest devices (phones or maybe watches, 400px and down) display none for now */
-@media only screen and (max-width: 400px) {
-  /* * {
-    background-color: red;
-    display: none;
-  } */
+@media only screen and (max-width: 300px) {
+  * {
+    background-color: black;
+ 
+  }
 }
 
 /* Extra small devices: phones, 600px and down */
-@media (min-width: 400px) and (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 600px) {
 
   /* brand  */
   .brand {
