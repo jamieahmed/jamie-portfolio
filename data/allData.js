@@ -11,7 +11,7 @@ let allprojectsData = [
     },
     {
         title: "App Name",
-        image: "assets/images/commingSoon.jpg",
+        image: "assets/images/tic-tac-toe.png",
         deployment: '#',
         github: '#',
         description:
@@ -21,7 +21,7 @@ let allprojectsData = [
     },
     {
         title: "App Name",
-        image: "assets/images/commingSoon.jpg",
+        image: "assets/images/tic-tac-toe.png",
         deployment: '#',
         github: '#',
         description:
