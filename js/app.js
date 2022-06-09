@@ -56,9 +56,9 @@ projectsContainer.innerHTML = projectCard
 
 /*-------------------------------- Constants --------------------------------*/
 
-import { education, } from "../resumData/resumedata.js"
-import { skills } from "../resumData/resumedata.js"
-import { experience } from "../resumData/resumedata.js"
+import { myEducation } from "../resumData/resumedata.js"
+import { mySkills } from "../resumData/resumedata.js"
+import { myExperience } from "../resumData/resumedata.js"
 
 /*------------------------ Cached Element References ------------------------*/
 const resumEducation = document.querySelector("#education-id")
@@ -66,9 +66,9 @@ const resumSkills = document.querySelector("#skill-id")
 const resumExperience = document.querySelector("#experince-id")
 
 /*----------------------------- Event Listeners -----------------------------*/
-resumEducation.addEventListener('click', createEducationDescription)
-resumSkills.addEventListener('click', createSkillDescription)
-resumExperience.addEventListener('click', createExperinceDescription)
+resumEducation.addEventListener("click", createNewEduCard)
+resumSkills.addEventListener("click", createNewSkillCard)
+resumExperience.addEventListener('click', createNewExperCard)
 /*-------------------------------- Functions --------------------------------*/
 
 

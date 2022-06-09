@@ -1,8 +1,12 @@
 html {
   box-sizing: border-box;
-  scroll-behavior: smooth;
-  /* not working  */
+}
 
+*,
+*::before,
+*::after {
+
+  box-sizing: inherit;
 }
 
 body {
@@ -14,6 +18,10 @@ body {
 /* section nav_bar */
 #nav-general-controler {
   padding: 0%;
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
 }
 
 .container-fluid {
@@ -571,10 +579,10 @@ input[type="submit"]:hover {
 
 /*smallest devices (phones or maybe watches, 400px and down) display none for now */
 @media only screen and (max-width: 400px) {
-  * {
+  /* * {
     background-color: red;
     display: none;
-  }
+  } */
 }
 
 /* Extra small devices: phones, 600px and down */
@@ -901,6 +909,4 @@ input[type="submit"]:hover {
 
 
 /* Extra large devices large laptops and desktops, 1200px to up */
-@media only screen and (min-width: 1200px) {
-
-}
+@media only screen and (min-width: 1200px) {}

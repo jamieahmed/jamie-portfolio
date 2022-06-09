@@ -1,23 +1,23 @@
-const education = [
+const myEducation = [
     {
         title: "myeducation",
     },
 
 ]
 
-const skills = [
+const mySkills = [
     {
         title: "myskills",
     },
 ]
-const experience = [
+const myExperience = [
     {
         title: "myexperience",
     },
 ]
 
 export {
-    education,
-    skills,
-    experience
+    myEducation,
+    mySkills,
+    myExperience
 }
