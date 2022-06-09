@@ -33,7 +33,7 @@ const footer = document.querySelector("#footer-page")
 
 // project card /////////////////////
 let projectCard = allprojectsData.map(project =>
-    `
+  `
       <div class="card" >
         <img src="${project.image}" class="card-img-top "  alt="...">
         <div class="card-body">
@@ -52,7 +52,24 @@ let projectCard = allprojectsData.map(project =>
 projectsContainer.innerHTML = projectCard
 
 
+// resume staff from external file
 
+/*-------------------------------- Constants --------------------------------*/
+
+import { education, } from "../resumData/resumedata.js"
+import { skills } from "../resumData/resumedata.js"
+import { experience } from "../resumData/resumedata.js"
+
+/*------------------------ Cached Element References ------------------------*/
+const resumEducation = document.querySelector("#education-id")
+const resumSkills = document.querySelector("#skill-id")
+const resumExperience = document.querySelector("#experince-id")
+
+/*----------------------------- Event Listeners -----------------------------*/
+resumEducation.addEventListener('click', createEducationDescription)
+resumSkills.addEventListener('click', createSkillDescription)
+resumExperience.addEventListener('click', createExperinceDescription)
+/*-------------------------------- Functions --------------------------------*/
 
 
 
