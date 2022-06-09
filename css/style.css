@@ -902,7 +902,5 @@ input[type="submit"]:hover {
 
 /* Extra large devices large laptops and desktops, 1200px to up */
 @media only screen and (min-width: 1200px) {
-  /* * {
-    background-color: red;
-  } */
+
 }

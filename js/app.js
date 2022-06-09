@@ -120,4 +120,3 @@ newFooter.innerText = "© 2022 JamieAhmed. All rights reserved.";
 footer.appendChild(newFooter)
 
 
-
