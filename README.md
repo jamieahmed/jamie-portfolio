@@ -27,4 +27,5 @@
   - Update HTML with (DOM) to clean HTMl file,
   - Create new directory & file for each page and remove unnecessary code. 
   - Add Animations,
+  - Add up arrow in footer 
   - Check errors and test App
