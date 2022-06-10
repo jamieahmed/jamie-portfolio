@@ -10,15 +10,20 @@
 - HTML
 - CSS
 - JavaScript
-- Git
+- Document Object Model (DOM)
 - Bootstrap
-
+- Git
 # Next Step: 
   - Add dark Mode.
-  - Add responsive design for Extra devices (Ex,phones or maybe watches, 400px and down). 
-  - Remove unnecessary code. 
-  - Add functionality to display cards,(In resume page)
-  - Add email.js to recive emails form users,(In contact form)
+  - Add responsive design for Extra small devices (Ex,phones or maybe watches, 400px and down). 
+  - Add functionality to display cards,(In resume page),
+  - Add email.js to recive message from users,
   - Design social media icons and project 
   - In projects page add small navbar with four buttons to let user choose specific project.
+    - All projects
+    - Front end
+    - Back end 
+    - Mern Stack
+  - Update HTML with (DOM) to clean HTMl file,
+  - Add new directory for page and remove unnecessary code. 
   - Add Animations,
