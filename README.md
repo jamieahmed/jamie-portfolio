@@ -1,6 +1,6 @@
 # Jamie-portfolio
 ![my portfolio](https://i.imgur.com/z3dQgsS.png)
-
+# Description:
 
 # Getting started:
 - [GitHub](https://github.com/jamieahmed/jamie-portfolio)
@@ -17,13 +17,14 @@
   - Add dark Mode.
   - Add responsive design for Extra small devices (Ex,phones or maybe watches, 400px and down). 
   - Add functionality to display cards,(In resume page),
-  - Add email.js to recive message from users,
+  - Add email.js to receive message from users,
   - Design social media icons and project 
-  - In projects page add small navbar with four buttons to let user choose specific project.
+  - Add small navbar with four buttons to let user choose specific project.
     - All projects
     - Front end
     - Back end 
-    - Mern Stack
+    - MERN Stack
   - Update HTML with (DOM) to clean HTMl file,
-  - Add new directory for each page and remove unnecessary code. 
+  - Create new directory & file for each page and remove unnecessary code. 
   - Add Animations,
+  - Check errors and test App
