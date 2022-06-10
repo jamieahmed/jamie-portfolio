@@ -1,9 +1,9 @@
 # Jamie-portfolio
 ![my portfolio](https://i.imgur.com/z3dQgsS.png)
 # Description:
-   - Jamie Ahmed personal portfolio,
+   Jamie Ahmed personal portfolio,
  This is my personal portfolio  compilation of materials that exemplifies my beliefs, skills, qualifications, education, training and experiences.
-     - If you have any suggestion or comment regarding of my portfolio please let me know, [linkedin](https://www.linkedin.com/in/jamie-ahmed-b1841421a/) or[Facebook](https://www.facebook.com/JAMIEAHMEDIBRAHIM/)
+If you have any suggestion or comments regarding of my portfolio please let me know, [linkedin](https://www.linkedin.com/in/jamie-ahmed-b1841421a/) or [Facebook](https://www.facebook.com/JAMIEAHMEDIBRAHIM/)
   
   
 
