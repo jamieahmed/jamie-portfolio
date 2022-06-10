@@ -1,6 +1,7 @@
 # Jamie-portfolio
 ![my portfolio](https://i.imgur.com/z3dQgsS.png)
 # Description:
+  - - Jamie Ahmed personal portfolio,
 
 # Getting started:
 - [GitHub](https://github.com/jamieahmed/jamie-portfolio)
