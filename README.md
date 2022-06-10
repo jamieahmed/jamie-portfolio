@@ -25,5 +25,5 @@
     - Back end 
     - Mern Stack
   - Update HTML with (DOM) to clean HTMl file,
-  - Add new directory for page and remove unnecessary code. 
+  - Add new directory for each page and remove unnecessary code. 
   - Add Animations,
