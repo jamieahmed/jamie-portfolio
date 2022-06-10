@@ -371,6 +371,11 @@ body {
   border-radius: 5%;
 }
 
+.resume-title-child:hover {
+  -webkit-box-shadow: 0px 1px 15px 5px #FDFFF7;
+  box-shadow: 0px 1px 15px 5px #FDFFF7;
+}
+
 .resume-images {
   border-radius: 50%;
   padding: 25px;
@@ -559,7 +564,9 @@ input[type="submit"]:hover {
   font-size: 40px;
   border-radius: 50%;
   margin-right: 20px;
-  color: black;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
+    #ff2d95 0px 0px 50px, #ec1983 0px 0px 75px;
 
 }
 
@@ -579,10 +586,9 @@ input[type="submit"]:hover {
 
 /*smallest devices (phones or maybe watches, 400px and down) display none for now */
 @media only screen and (max-width: 400px) {
-  /* * {
-    background-color: red;
+  * {
     display: none;
-  } */
+  }
 }
 
 /* Extra small devices: phones, 600px and down */

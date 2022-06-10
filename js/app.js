@@ -66,9 +66,9 @@ const resumSkills = document.querySelector("#skill-id")
 const resumExperience = document.querySelector("#experince-id")
 
 /*----------------------------- Event Listeners -----------------------------*/
-resumEducation.addEventListener("click", createNewEduCard)
-resumSkills.addEventListener("click", createNewSkillCard)
-resumExperience.addEventListener('click', createNewExperCard)
+// resumEducation.addEventListener("click", createNewEduCard)
+// resumSkills.addEventListener("click", createNewSkillCard)
+// resumExperience.addEventListener('click', createNewExperCard)
 /*-------------------------------- Functions --------------------------------*/
 
 

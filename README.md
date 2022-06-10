@@ -29,3 +29,4 @@
   - Add Animations,
   - Add up arrow in footer 
   - Check errors and test App
+ 

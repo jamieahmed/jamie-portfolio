@@ -1,7 +1,7 @@
 let allprojectsData = [
     {
         title: "Tic-Tac-Toe",
-        image: "assets/images/tic-tac-toe.png",
+        image: "assets/images/Tic-Tac-Toe.png",
         deployment: 'https://jamie-tic-tac-toe-game.netlify.app/',
         github: 'https://github.com/jamieahmed/Jamie-Tic-Tac-Toe-game',
         description:
@@ -11,7 +11,7 @@ let allprojectsData = [
     },
     {
         title: "App Name",
-        image: "assets/images/tic-tac-toe.png",
+        image: "assets/images/Tic-Tac-Toe.png",
         deployment: '#',
         github: '#',
         description:
@@ -21,14 +21,14 @@ let allprojectsData = [
     },
     {
         title: "App Name",
-        image: "assets/images/tic-tac-toe.png",
+        image: "assets/images/Tic-Tac-Toe.png",
         deployment: '#',
         github: '#',
         description:
             "App description will be here,",
         status: 'coming soon  ........',
         languages: "HTML,CSS,JavaScript, DOM.",
-    },
+    }
 
 ]
 

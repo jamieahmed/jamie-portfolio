@@ -7,7 +7,9 @@ const myEducation = [
 
 const mySkills = [
     {
-        title: "myskills",
+        schoolName: "Adikeyh secondary school",
+        
+
     },
 ]
 const myExperience = [
