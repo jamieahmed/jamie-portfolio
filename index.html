@@ -58,7 +58,7 @@
                 <div class="nav_item">
                     <a href="#contact-page">Contact Me</a>
                 </div>
-                <button class="dark-mood"><i class="bi bi-moon-fill"></i></button>
+                <button id="light-dark-button" class="dark-mood"><i class="bi bi-moon-fill"></i></button>
             </div>
         </div>
     </nav>
@@ -68,7 +68,7 @@
         <div class="home-child-content">
             <h2 class="my-name">Hi,I'm Jamie Ahmed</h2>
             <h4 class="short-description"> I'm a <strong>Full Stack Developer</strong> with project
-                management skills based in New Jersy.</h4>
+                management skills based in New Jersey.</h4>
             <div>
                 <a href="#contact-page">
                     <button class="hire-me">Hire me</button>
@@ -94,28 +94,16 @@
         <div class="about-child-content">
             <h3 class="about-me-title">About Me </h3>
             <div class="about-me-description">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur labore ipsam cumque. Ab
-                    fuga
-                    enim eligendi porro ad quis quia obcaecati impedit corrupti officia, veniam numquam expedita
-                    molestias!
-                    Incidunt.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur labore ipsam cumque. Ab
-                    fuga
-                    enim eligendi porro ad quis quia obcaecati impedit corrupti officia, veniam numquam expedita
-                    molestias!
-                    Incidunt.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur labore ipsam cumque. Ab
-                    fuga
-                    enim eligendi porro ad quis quia obcaecati impedit corrupti officia, veniam numquam expedita
-                    molestias!
-                    Incidunt.</p>
+                <p>Hey, I am Jamie Ahmed, Recent Boot Camp graduate with a passion for developing scalable web
+                    applications and working across the full stack development with project management skills.</p>
+                <p>I work on both front-end and back-end development processes. I design, develop, and maintain
+                    fully-fledged and functioning platforms with databases,</p>
             </div>
             <div class="jamie-blockquote">
                 <blockquote>
-                    jamie Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, nisi obcaecati
-                    incidunt illo
-                    voluptate tempore, quod consequatur sint est sit itaque maiores aliquid in nulla iure explicabo vero
-                    minima doloremque!
+                  <p>ንሰባት ብዘይኻ ትርኢትኻን ቃላትኻን ካልእ ክርእዩን ክሰምዑን ኣይትፍቅደሎም.</p>
+                  <p>ነቶም ብደጋዊ ትርኢትኻ  ጥራይ  ዝፈርዱኻ, ብውሽጣዊ  ትርእትካ ገርካ ፍረዶም.</p>
+                  <p>ብስቃይ ምፍታን ዕጫ እዩ, ኣብ ስቃይ ምንባር ግን ምርጫ እዩ.</p>
                     <span>" Jamie Ahmed "</span>
                 </blockquote>
             </div>
@@ -125,18 +113,25 @@
     <div>
         <!-- <h3 id="resume-title" class="resume-title"></h3> -->
         <div id="resume-page" class="resume-container">
-            <div class="resume-title-child" id="education-id">
-                <h2 id="resume-education-title"></h2>
-                <img class="resume-images" src="./assets/images/eduction.jpg" alt="">
-            </div>
-            <div class="resume-title-child" id="skill-id">
-                <h2 id="resume-skill-title"></h2>
-                <img class="resume-images" src="./assets/images/skills-logo.png" alt="">
-            </div>
-            <div class="resume-title-child" id="experince-id">
-                <h2 id="resume-experience-title"></h2>
-                <img class="resume-images" src="./assets/images/experience-logo.jpg" alt="">
-            </div>
+            <a class="resume-title-child" href="./resumData/eduction.html">
+                <div id="education-id">
+                    <h2 id="resume-education-title"></h2>
+                    <img class="resume-images" src="./assets/images/eduction.jpg" alt="">
+                </div>
+            </a>
+            <a class="resume-title-child" href="/resumData/skills.html">
+                <div id="skill-id">
+                    <h2 id="resume-skill-title"></h2>
+                    <img class="resume-images" src="./assets/images/skills-logo.png" alt="">
+                </div>
+            </a>
+            <a class="resume-title-child" href="./resumData/experience.html">
+                <div id="experince-id">
+                    <h2 id="resume-experience-title"></h2>
+                    <img class="resume-images" src="./assets/images/experience-logo.jpg" alt="">
+                </div>
+            </a>
+            <div id="resume-card-container"></div>
         </div>
     </div>
     <!-- projects -->
@@ -169,11 +164,11 @@
             <p class="Contact-info-title">Contact Info</p>
             <p class=" contact-info">
                 <i class="bi bi-envelope-fill"></i>
-                emailexample@gmail.com
+                example@gmail.com
             </p>
             <p class="contact-info">
                 <i class="bi bi-telephone-outbound-fill"></i>
-                @1(800)286 361 7844
+                Not available
             </p>
             <a class="contact-info" href="https://goo.gl/maps/1MeUDyYnrnjPxn578">
                 <i class="bi bi-geo-alt-fill"></i>Get Location

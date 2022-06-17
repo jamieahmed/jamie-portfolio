@@ -1,7 +1,7 @@
 // imported external data
 import { allprojectsData } from "../data/allData.js"
-////////////Store cached element references///////////////
 
+////////////Store cached element references///////////////
 //// Navbar section 
 const navbar = document.querySelector("#navbar-page")
 
@@ -56,14 +56,14 @@ projectsContainer.innerHTML = projectCard
 
 /*-------------------------------- Constants --------------------------------*/
 
-import { myEducation } from "../resumData/resumedata.js"
-import { mySkills } from "../resumData/resumedata.js"
-import { myExperience } from "../resumData/resumedata.js"
+// import { myEducation } from "../resumData/resumedata.js"
+// import { mySkills } from "../resumData/resumedata.js"
+// import { myExperience } from "../resumData/resumedata.js"
 
 /*------------------------ Cached Element References ------------------------*/
-const resumEducation = document.querySelector("#education-id")
-const resumSkills = document.querySelector("#skill-id")
-const resumExperience = document.querySelector("#experince-id")
+// const resumEducation = document.querySelector("#education-id")
+// const resumSkills = document.querySelector("#skill-id")
+// const resumExperience = document.querySelector("#experince-id")
 
 /*----------------------------- Event Listeners -----------------------------*/
 // resumEducation.addEventListener("click", createNewEduCard)
@@ -120,3 +120,40 @@ newFooter.innerText = "© 2022 JamieAhmed. All rights reserved.";
 footer.appendChild(newFooter)
 
 
+
+// for about me title hover staff
+const aboutMe = document.querySelector('.about-me-title')
+aboutMe.addEventListener('mouseover', hover)
+
+aboutMe.addEventListener('mouseout', hover)
+
+function hover(e){
+  if(e.type === 'mouseover'){
+    e.target.style.fontSize = '50px'
+  }else{
+    e.target.style.fontSize = '35px'
+  }
+}
+
+
+// dark mode
+const lightDarkBtn = document.querySelector("#light-dark-button")
+const body = document.querySelector("body")
+
+
+lightDarkBtn.addEventListener("click", toggleLightDark)
+
+function toggleLightDark() {
+  body.className = body.className === "dark" ? "" : "dark"
+}
+
+function checkDarkPref() {
+  if(
+    window.matchMedia("(prefers-color-scheme:dark)").matches && 
+    body.className !== "dark"
+  ) {
+    toggleLightDark()
+  }
+}
+
+checkDarkPref()
