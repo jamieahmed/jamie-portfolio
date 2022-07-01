@@ -11,11 +11,11 @@ let allprojectsData = [
     },
     {
         title: "DMT",
-        image: "assets/images/one.png",
+        image: "",
         deployment: 'https://developer-management-tool.herokuapp.com/',
-        github: '#',
+        github: 'https://github.com/jamieahmed/developer-management-tool-',
         description:
-            "App description will be here,",
+            "DMT is .....,",
         status: 'In process',
         languages: "HTML,CSS,JavaScript,Node,Express,MongoDB,Mongoose,Bootstrap.",
     },
