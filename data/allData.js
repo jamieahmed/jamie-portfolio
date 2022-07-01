@@ -10,14 +10,14 @@ let allprojectsData = [
         languages: "HTML,CSS,JavaScript, DOM.",
     },
     {
-        title: "App Name",
-        image: "assets/images/Tic-Tac-Toe.png",
-        deployment: '#',
+        title: "DMT",
+        image: "assets/images/dmt.log.jpg",
+        deployment: 'https://developer-management-tool.herokuapp.com/',
         github: '#',
         description:
             "App description will be here,",
-        status: 'comming soon  .......',
-        languages: "HTML,CSS,JavaScript, DOM.",
+        status: 'In process',
+        languages: "HTML,CSS,JavaScript,Node,Express,MongoDB,Mongoose,Bootstrap.",
     },
     {
         title: "App Name",

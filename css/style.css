@@ -622,12 +622,12 @@ input[type="submit"]:hover {
 
 /* Extra small devices: phones, 600px and down */
 @media (min-width: 400px) and (max-width: 600px) {
-
   /* brand  */
   .brand {
     margin: 5px 0px;
     font-size: 25px;
     font-weight: 500;
+
   }
 
   /* nav_items start here */
