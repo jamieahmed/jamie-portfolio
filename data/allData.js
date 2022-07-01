@@ -11,7 +11,7 @@ let allprojectsData = [
     },
     {
         title: "DMT",
-        image: "assets/images/dmt.log.jpg",
+        image: "assets/images/one.png",
         deployment: 'https://developer-management-tool.herokuapp.com/',
         github: '#',
         description:
